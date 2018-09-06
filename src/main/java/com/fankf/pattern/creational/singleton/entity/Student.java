@@ -1,4 +1,4 @@
-package com.fankf.pattern.singleton.entity;
+package com.fankf.pattern.creational.singleton.entity;
 
 public class Student {
 	private int studentNo;

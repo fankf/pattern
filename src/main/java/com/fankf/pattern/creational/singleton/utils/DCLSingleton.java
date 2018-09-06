@@ -1,6 +1,6 @@
-package com.fankf.pattern.singleton.utils;
+package com.fankf.pattern.creational.singleton.utils;
 
-import com.fankf.pattern.singleton.entity.Student;
+import com.fankf.pattern.creational.singleton.entity.Student;
 
 
 /**

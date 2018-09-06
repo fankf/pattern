@@ -1,10 +1,10 @@
-package com.fankf.pattern.singleton.test;
+package com.fankf.pattern.creational.singleton.test;
 
-import com.fankf.pattern.singleton.entity.Student;
-import com.fankf.pattern.singleton.utils.HungrySingleton;
-import com.fankf.pattern.singleton.utils.LazySingleton;
-import com.fankf.pattern.singleton.utils.SingletonEnum;
-import com.fankf.pattern.singleton.utils.StaticInnerClassSingleton;
+import com.fankf.pattern.creational.singleton.entity.Student;
+import com.fankf.pattern.creational.singleton.utils.HungrySingleton;
+import com.fankf.pattern.creational.singleton.utils.LazySingleton;
+import com.fankf.pattern.creational.singleton.utils.SingletonEnum;
+import com.fankf.pattern.creational.singleton.utils.StaticInnerClassSingleton;
 
 public class SingletonTest {
 	public static void main(String[] args) {
