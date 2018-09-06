@@ -16,13 +16,13 @@ public class SingletonTest {
 		//2.切换13与14行可以明确看出是否是单例
 		Student student4 = LazySingleton.getStudent(12, "张三");
 		Student student3 = LazySingleton.getStudent();
-		System.out.println(student3);
+		System.out.println(student3==student4);
 		
 		//5.innerClass
 		Student student5 = StaticInnerClassSingleton.getStudent(12, "lisi");
 		System.out.println(student5);
 		
-		SingletonEnum singletonEnum = SingletonEnum.STUDENT;
+		SingletonEnum singletonEnum = SingletonEnum.INSTANCE;
 		System.out.println(singletonEnum);
 	}
 }
